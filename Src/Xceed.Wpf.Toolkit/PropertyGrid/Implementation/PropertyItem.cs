@@ -189,7 +189,7 @@ namespace Xceed.Wpf.Toolkit.PropertyGrid
     protected override void OnValueChanged( object oldValue, object newValue )
     {
       base.OnValueChanged( oldValue, newValue );
-
+      /*
       // A Default Value is defined and newValue is null => set the Default Value
       if( ( newValue == null ) && ( this.DescriptorDefinition != null ) && ( this.DescriptorDefinition.DefaultValue != null ) )
       {
@@ -199,6 +199,7 @@ namespace Xceed.Wpf.Toolkit.PropertyGrid
         this.SetCurrentValue( PropertyItem.ValueProperty, this.DescriptorDefinition.DefaultValue );
 #endif
       }
+      */
     }
 
     #endregion
